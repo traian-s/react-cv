@@ -1,0 +1,10 @@
+@import "globals";
+@import "typography";
+@import "profile";
+
+body {
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+}

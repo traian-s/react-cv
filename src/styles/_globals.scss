@@ -1,0 +1,12 @@
+@mixin separator {
+  &:after {
+    content: " ";
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 760px;
+    height: 0;
+    border-bottom: solid 2px #000;
+  }
+  margin-bottom: 1.25rem;
+}
