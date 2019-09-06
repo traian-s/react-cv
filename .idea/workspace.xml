@@ -2,31 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc6dd64-76df-48e9-861a-aadc05f35502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/me.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CV.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Experience.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Personal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/experience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/personal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/decode-academy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/getbowtied-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/straightad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Export.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuickInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_experience.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_personal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_quickinfo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CV.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Personal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Personal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -88,8 +93,17 @@
       <workItem from="1567537061717" duration="71000" />
       <workItem from="1567537161828" duration="6380000" />
       <workItem from="1567578389872" duration="6780000" />
-      <workItem from="1567675986795" duration="951000" />
+      <workItem from="1567675986795" duration="13075000" />
+      <workItem from="1567751640267" duration="12206000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1567677130268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567677130268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

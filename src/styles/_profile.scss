@@ -1,6 +1,6 @@
 .profile {
-  h1 {
-    text-align: center;
+  h3 {
+    margin-top: 0;
     @include separator;
   }
   .intro {
@@ -10,16 +10,32 @@
       flex: 1 50%;
     }
     .avatar {
+      margin: -40px -40px 0 0;
       img {
-        max-width: 400px;
+        width: 100%;
+        object-fit: cover;
       }
     }
     .info {
       display: flex;
       flex-direction: column;
 
+      .summary {
+        padding-right: 40px;
+        p {
+          text-align: justify;
+        }
+      }
       .links {
         margin-top: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        > a {
+          line-height: 1;
+          color: #000;
+          font-size: 2rem;
+        }
       }
     }
   }

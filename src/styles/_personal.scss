@@ -1,0 +1,12 @@
+section {
+  &.personal {
+    .personal-list {
+      display: flex;
+      flex-direction: row;
+      margin: 0 -15px;
+      .personal-item {
+        padding: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+section {
+    &.quickInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 -15px;
+
+        > div {
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        table {
+            font-size: 0.875rem;
+            border-collapse: collapse;
+            width: 100%;
+
+            tr {
+                &:nth-child(even) {
+                    background: $accentColor;
+                    color: #fff;
+                }
+
+                td {
+                    vertical-align: top;
+                    padding: .5rem;
+                }
+                td:first-child {
+                    width: 40%;
+                }
+                td:last-child {
+                    width: 60%;
+                }
+            }
+
+            .lang {
+                display: block;
+                .level {
+                    color: $lightPrimary;
+                }
+            }
+        }
+        .tag {
+            @include tag;
+        }
+    }
+}

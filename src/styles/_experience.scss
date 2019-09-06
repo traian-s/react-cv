@@ -1,0 +1,47 @@
+section {
+  &.experience {
+    article {
+      position: relative;
+      header {
+        .logo {
+          img {
+            max-width: 100px;
+          }
+        }
+        .duration {
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          vertical-align: middle;
+          font-size: 1rem;
+          background: $darkPrimary;
+          color: #fff;
+          width: 8rem;
+          height: 2rem;
+        }
+      }
+      .highlights {
+        list-style-type: none;
+        padding-left: 20px;
+        font-size: 14px;
+        li {
+          svg {
+            margin-right: 20px;
+          }
+        }
+      }
+      .tagList {
+        .tag {
+          @include tag;
+        }
+      }
+      date {
+        color: $secondaryText;
+        font-size: 0.8125rem;
+      }
+    }
+  }
+}

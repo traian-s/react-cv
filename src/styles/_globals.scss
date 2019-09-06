@@ -1,12 +1,28 @@
-@mixin separator {
-  &:after {
-    content: " ";
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 760px;
-    height: 0;
-    border-bottom: solid 2px #000;
-  }
-  margin-bottom: 1.25rem;
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 840px;
+  background-color: #fff;
+  margin: 0 -40px;
+  padding: 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  //box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),
+  //            0px 1px 1px 0px rgba(0,0,0,0.14),
+  //            0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 4px;
+}
+
+#printable {
+  width: 210mm;
+  min-height: 297mm;
+}
+
+section > h2 {
+  text-align: center;
+  @include separator;
 }
