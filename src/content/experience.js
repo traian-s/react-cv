@@ -60,14 +60,14 @@ export const experience = {
                 'MySQL',
                 'MS SQL',
                 'JavaScript',
-                'AngularJS',
-                'SASS',
-                'HTML'
+                'AngularJS'
             ],
             highlights: [
                 'Developed custom web and mobile CRM solutions',
                 'Developed custom eCommerce platforms',
-                'Maintained several large database eCommerce and booking apps'
+                'Maintained several large database eCommerce and booking apps',
+                'Developed SPA apps with AngularJS',
+                'Helped develop a powerful CMS with Laravel'
             ]
         },
         {

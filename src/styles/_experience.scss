@@ -1,83 +1,102 @@
 section {
-  &.experience {
-    margin: 0 0 40px 0;
-    padding: 24px;
-    border: solid 2px #0000ff;
-    h2 {
-      text-align: left;
-      margin: 0 -24px;
-      line-height: 1;
-      padding: 0 0 24px 24px;
-      box-sizing: border-box;
-      border-bottom: solid 2px $dosblue;
+    &.experience {
+        margin: 0 0 40px 0;
+        padding: 24px;
+        border: solid 2px #0000ff;
+
+        h2 {
+            text-align: left;
+            margin: 0 -24px;
+            line-height: 1;
+            padding: 0 0 24px 24px;
+            box-sizing: border-box;
+            border-bottom: solid 2px $dosblue;
+        }
+
+        article {
+            padding: 24px 24px 0 24px;
+            margin: 0 -24px;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+
+            &:not(:last-child) {
+                border-style: solid;
+                border-color: $dosblue;
+                border-width: 0 0 2px 0;
+                padding: 24px 24px;
+            }
+
+            .main {
+                padding-right: 24px;
+            }
+
+            header {
+                h5 {
+                    margin-top: 0;
+                    color: $doutone_light_darker;
+                }
+
+                .logo {
+                    img {
+                        max-width: 100px;
+                    }
+                }
+            }
+
+            .highlights {
+                list-style-type: none;
+                padding-left: 0;
+                font-size: 0.875rem;
+
+                li {
+                    svg {
+                        margin-right: 8px;
+                        color: $dosblue;
+                    }
+                }
+            }
+
+            date {
+                color: $dosblue;
+                font-size: 0.8125rem;
+                font-weight: 600;
+            }
+
+            aside {
+                display: flex;
+                flex-direction: column;
+                flex: 1 0 30%;
+                border-style: solid;
+                border-color: $dosblue;
+                border-width: 0 0 0 2px;
+                box-sizing: border-box;
+
+                .duration {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    vertical-align: middle;
+                    color: $doutone_light_darker;
+                    font-weight: 600;
+                    font-size: 2.441em;
+                    margin-top: auto;
+                    flex: 1 0 30%;
+                }
+
+                .tagList {
+                    margin-top: auto;
+                    border-style: solid;
+                    border-color: $dosblue;
+                    border-width: 2px 0 0 0;
+                    padding: 16px 0 0 24px;
+                    flex: 1 0 70%;
+
+                    .tag {
+                        @include tag;
+                    }
+                }
+            }
+        }
     }
-    article {
-      padding: 24px 24px 0 24px;
-      margin: 0 -24px;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      &:not(:last-child) {
-        border-bottom: solid 2px $dosblue;
-        padding: 24px 24px;
-      }
-      .main {
-        padding-right: 24px;
-      }
-      header {
-        h5 {
-          margin-top: 0;
-          color: $doutone_light_darker;
-        }
-        .logo {
-          img {
-            max-width: 100px;
-          }
-        }
-      }
-      .highlights {
-        list-style-type: none;
-        padding-left: 0;
-        font-size: 0.875rem;
-        li {
-          svg {
-            margin-right: 8px;
-            color: $dosblue;
-          }
-        }
-      }
-      date {
-        color: $dosblue;
-        font-size: 0.8125rem;
-      }
-      aside {
-        display: flex;
-        flex-direction: column;
-        flex: 1 0 30%;
-        border-left: solid 2px $dosblue;
-        box-sizing: border-box;
-        min-height: 416px;
-        .duration {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          vertical-align: middle;
-          color: $doutone_light_darker;
-          font-weight: 600;
-          font-size: 2.441em;
-          margin-top: auto;
-          flex: 1 0 40%;
-        }
-        .tagList {
-          margin-top: auto;
-          border-top: solid 2px $dosblue;
-          padding: 16px 0 0 24px;
-          flex: 1 0 60%;
-          .tag {
-            @include tag;
-          }
-        }
-      }
-    }
-  }
 }

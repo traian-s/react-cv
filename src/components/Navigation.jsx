@@ -15,9 +15,9 @@ export const Navigation = () => {
                         Personal Qualities
                     </a>
                 </li>
-                {/*<li className={'export'}>*/}
-                {/*    <Export />*/}
-                {/*</li>*/}
+                <li className={'export'}>
+                    <Export />
+                </li>
             </ul>
         </nav>
     )

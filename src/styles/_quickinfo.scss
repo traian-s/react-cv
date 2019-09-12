@@ -4,13 +4,19 @@ section {
         flex-direction: column;
 
         .classStyle {
+            font-family: Inconsolata;
+
             div {
-                border-left: solid 2px $duotone_light;
+                border-style: solid;
+                border-color: $duotone_light;
+                border-width: 0 0 0 2px;
                 padding-left: 8px;
+
                 > div {
                     margin-left: 24px;
                 }
             }
+
             svg {
                 font-size: 1.5rem;
                 color: $duotone_light;
@@ -20,48 +26,22 @@ section {
         .tagcloud {
             display: flex;
             flex-direction: row;
+
             > div {
-                border-right: solid 2px $dosblue;
+                border-style: solid;
+                border-color: $dosblue;
+                border-width: 0 2px 0 0;
                 margin-right: 16px;
+
                 &:last-child {
                     border-right: none;
                     margin-right: 0;
                 }
             }
-        }
 
-        table {
-            font-size: 0.875rem;
-            border-collapse: collapse;
-            width: 100%;
-
-            tr {
-                &:nth-child(even) {
-                    background: $accentColor;
-                    color: #fff;
-                }
-
-                td {
-                    vertical-align: top;
-                    padding: .5rem;
-                }
-                td:first-child {
-                    width: 40%;
-                }
-                td:last-child {
-                    width: 60%;
-                }
+            .tag {
+                @include tag;
             }
-
-            .lang {
-                display: block;
-                .level {
-                    color: $lightPrimary;
-                }
-            }
-        }
-        .tag {
-            @include tag;
         }
     }
 }

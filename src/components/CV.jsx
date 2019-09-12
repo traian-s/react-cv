@@ -19,7 +19,10 @@ export const CV = ({experience, profile, personal}) => {
                     <Profile {...profile}/>
                     <QuickInfo {...profile}/>
                 </div>
+                <div className={'pdfSpacer'} style={{height: 40}}></div>
                 <Experience {...experience}/>
+            </div>
+            <div className={'container'}>
                 <Personal  {...personal}/>
             </div>
         </React.Fragment>

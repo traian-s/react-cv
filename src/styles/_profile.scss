@@ -24,7 +24,7 @@
       img {
         width: 100%;
         object-fit: cover;
-        min-height: 500px;
+        min-height: 450px;
         transition: all .5s ease-in-out;
       }
       .altAvatar {
@@ -40,7 +40,6 @@
         .altAvatar {
           opacity: 1;
           visibility: visible;
-          height: 500px;
         }
       }
     }

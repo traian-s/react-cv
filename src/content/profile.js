@@ -72,7 +72,8 @@ export const profile = {
             'SASS',
             'SQL',
             'API',
-            'GitHub'
+            'GitHub',
+            'Node'
         ],
     },
     github: 'https://github.com/traian-s',
