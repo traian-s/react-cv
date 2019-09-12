@@ -6,18 +6,18 @@ export const Navigation = () => {
         <nav>
             <ul  className={'siteNav'}>
                 <li>
-                    <a href={''}>
+                    <a href={'#experience'}>
                         Work Experience
                     </a>
                 </li>
                 <li>
-                    <a href={''}>
+                    <a href={'#personal'}>
                         Personal Qualities
                     </a>
                 </li>
-                <li className={'export'}>
-                    <Export />
-                </li>
+                {/*<li className={'export'}>*/}
+                {/*    <Export />*/}
+                {/*</li>*/}
             </ul>
         </nav>
     )

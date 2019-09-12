@@ -39,7 +39,11 @@ export const experience = {
                 ' interacting with a SQL server, consuming a RESTful API and other fundamental concepts necessary to building a Web App',
             tags: [
                 'Slides',
-                'Tutoring'
+                'Tutoring',
+                'HTTP',
+                'Forms',
+                'PHP',
+                'MySQL'
             ],
             highlights: []
         },
@@ -74,7 +78,12 @@ export const experience = {
             summary: 'Throughout the years I have taken on projects from clients both local and abroad using various technologies. I have established several' +
                     'successful long term working relationships with a number of US based clients and I strive to deliver quality solutions. I have also provided consultancy' +
                     'and software auditing services.',
-            tags: [],
+            tags: [
+                'backend',
+                'frontend',
+                'database',
+                'API'
+            ],
             highlights: [
                 'Developed a custom CMS for a real estate listing website',
                 'Developed CMS and Frontend for a major electronic parts supply store',

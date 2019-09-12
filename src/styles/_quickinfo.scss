@@ -2,11 +2,32 @@ section {
     &.quickInfo {
         display: flex;
         flex-direction: column;
-        margin: 0 -15px;
 
-        > div {
-            box-sizing: border-box;
-            padding: 15px;
+        .classStyle {
+            div {
+                border-left: solid 2px $duotone_light;
+                padding-left: 8px;
+                > div {
+                    margin-left: 24px;
+                }
+            }
+            svg {
+                font-size: 1.5rem;
+                color: $duotone_light;
+            }
+        }
+
+        .tagcloud {
+            display: flex;
+            flex-direction: row;
+            > div {
+                border-right: solid 2px $dosblue;
+                margin-right: 16px;
+                &:last-child {
+                    border-right: none;
+                    margin-right: 0;
+                }
+            }
         }
 
         table {

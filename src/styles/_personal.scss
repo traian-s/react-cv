@@ -3,9 +3,18 @@ section {
     .personal-list {
       display: flex;
       flex-direction: row;
-      margin: 0 -15px;
+      margin: 0 -24px;
+      padding-top: 24px;
       .personal-item {
-        padding: 15px;
+        h5 {
+          margin-top: 0;
+        }
+        padding: 24px;
+        flex: 1 1 33%;
+        box-sizing: border-box;
+        &:not(:last-child) {
+          border-right: solid 2px $dosblue;
+        }
       }
     }
   }

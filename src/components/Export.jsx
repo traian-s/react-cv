@@ -6,8 +6,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export const Export = () => {
     const exportCV = () => {
         window.scrollTo(0, 0);
-        html2canvas(document.querySelector("#printable")).
-            then(canvas => {
+        html2canvas(document.querySelector("#printable"))
+            .then(canvas => {
                 const imgData = canvas.toDataURL('image/png');
                 const imgWidth = 210;
                 const pageHeight = 298;

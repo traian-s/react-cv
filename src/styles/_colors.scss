@@ -5,3 +5,15 @@ $dividerText: #BDBDBD;
 $accentColor: #009688;
 $lightPrimary: #B2DFDB;
 $darkPrimary: #00796B;
+
+$duotone_light: #10c5f8;
+$doutone_light_darker: #077897;
+$dosblue: #0000ff;
+
+.dosblue {
+    $dosblue: #0000ff;
+}
+.dosbluebg {
+    color: white;
+    background: $dosblue;
+}

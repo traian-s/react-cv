@@ -7,13 +7,13 @@ export const Profile = (profile) => {
             <div className={'intro'}>
                 <div className={'info'}>
                     <div className={'summary'}>
-                        <h3>Hi, I'm {profile.bio.name}</h3>
+                        <h1>Hi, I'm {profile.bio.name}</h1>
                         <p>{profile.summary}</p>
                     </div>
                     <div className={'links'}>
                         {
                             profile.links.map((row) =>
-                                <a target='_blank'
+                                <a target='_blank'  rel='noopener noreferrer'
                                    className={`icon-${row.type}`}
                                    href={row.link}>
                                     {row.icon && <FontAwesomeIcon icon={[row.icon.style,row.icon.name]}/>}
@@ -22,7 +22,8 @@ export const Profile = (profile) => {
                     </div>
                 </div>
                 <div className={'avatar'}>
-                    <img src={'images/me.jpg'} alt={'avatar'}/>
+                    <img src={'images/me.png'} alt={'avatar'}/>
+                    <img className={'altAvatar'} src={'images/me.jpg'} alt={'alt-avatar'} />
                 </div>
             </div>
         </header>

@@ -3,14 +3,14 @@ export const personal = {
         {
             title: 'versatile',
             summary: 'I’ve been involved in every step of developing a web app from initial architecture and database design to pixel perfect frontend. I’m comfortable taking on any' +
-                'development role, to which I can bring working experience and insight and a strong understanding of fundamental principles. I’m also more than happy to take on ' +
+                ' development role, to which I can bring working experience and insight and a strong understanding of fundamental principles. I’m also more than happy to take on ' +
                 'new technologies and I have no issue diving into a project which requires working with a new language.'
         },
         {
             title: 'independent',
             summary: 'Owing to extensive work experience and a strong understanding of the fundamental principles of web applications I am confident enough to make development' +
                 ' decisions throughout the project within my predefined boundaries. I keep the big picture in my sights at all times and I don’t require task micromanagement' +
-                'to get the job done right and on time.'
+                ' to get the job done right and on time.'
         },
         {
             title: 'team player',

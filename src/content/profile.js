@@ -51,24 +51,31 @@ export const profile = {
         email: 'stanciu.traian@gmail.com'
     },
     timezone: 'UTC+3',
-    keywords: [
-        'frontend',
-        'backend',
-        'database',
-        'server',
-        'experienced',
-        'assertive',
-        'communicative',
-        'friendly',
-        'PHP',
-        'JavaScript',
-        'React',
-        'HTML',
-        'SASS',
-        'SQL',
-        'API',
-        'GitHub'
-    ],
+    keywords: {
+        'general': [
+            'frontend',
+            'backend',
+            'database',
+            'server',
+        ],
+        'personal': [
+            'experienced',
+            'assertive',
+            'communicative',
+            'friendly',
+        ],
+        'technical': [
+            'PHP',
+            'JavaScript',
+            'React',
+            'HTML',
+            'SASS',
+            'SQL',
+            'API',
+            'GitHub'
+        ],
+    },
+    github: 'https://github.com/traian-s',
     usefulLinks: [
         'https://github.com/traian-s',
         'https://linkedin.com/in/traian-stanciu'

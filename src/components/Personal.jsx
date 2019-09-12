@@ -2,7 +2,7 @@ import React from "react";
 
 export const Personal = (personal) => {
     return (
-        <section className={'personal'}>
+        <section id={'personal'} className={'personal'}>
             <h2>Personal Qualities</h2>
             <div className={'personal-list'}>
                 {

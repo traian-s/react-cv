@@ -11,18 +11,25 @@ body {
   padding: 40px;
   margin: 0 auto;
   box-sizing: border-box;
-  //box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2),
-  //            0px 1px 1px 0px rgba(0,0,0,0.14),
-  //            0px 2px 1px -1px rgba(0,0,0,0.12);
   border-radius: 4px;
 }
 
 #printable {
   width: 210mm;
   min-height: 297mm;
-}
 
-section > h2 {
-  text-align: center;
-  @include separator;
+  > section {
+    margin: 0 0 40px 0;
+    padding: 24px;
+    border: solid 2px #0000ff;
+
+    h2 {
+      text-align: left;
+      margin: 0 -24px;
+      line-height: 1;
+      padding: 0 0 24px 24px;
+      box-sizing: border-box;
+      border-bottom: solid 2px $dosblue;
+    }
+  }
 }

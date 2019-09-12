@@ -1,59 +1,65 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export const QuickInfo = (profile) => {
     return (
         <section className={'quickInfo'}>
-            <div>
-                <h5>Details</h5>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Name</td><td>{profile.bio.name}</td>
-                        </tr>
-                        <tr>
-                            <td>Job</td><td>{profile.title}</td>
-                        </tr>
-                        <tr>
-                            <td>Phone</td><td>{profile.contact.phone}</td>
-                        </tr>
-                        <tr>
-                            <td>Email</td><td>{profile.contact.email}</td>
-                        </tr>
-                        <tr>
-                            <td>Timezone</td><td>{profile.timezone}</td>
-                        </tr>
-                        <tr>
-                            <td>Languages</td>
-                            <td>
-                                {profile.languages.map((item) =>
-                                    <span className={'lang'}>{item.lang}
-                                        <span className={'level'}> [{item.value}]</span>
-                                    </span>
-                                )}
-                            </td>
-                        </tr>
-                    <tr>
-                        <td>Links</td>
-                        <td>
-                            {profile.usefulLinks.map((item) =>
-                                <>{item}<br/></>
-                            )}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Status</td>
-                        <td>{profile.status}</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div className={'dosblueSep'}>
+                <div className={'classStyle'}>
+                    <div>
+                        {`<Name>`}
+                        <div>
+                            {`<Phone>`}
+                            <div>
+                                {`<Email>`}
+                                <div>
+                                    {`<GitHub>`}
+                                    <div>
+                                        {profile.languages.map((item) =>
+                                        <>{`<${item.lang} = "${item.value}"/>`}<br/></>
+                                        )}
+                                        <div>
+                                            {`<Job>`}
+                                            <div>
+                                                {`<Status>`}
+                                                <div><FontAwesomeIcon icon={'smile'} /></div>
+                                                {`</${profile.status}>`}
+                                            </div>
+                                            <span className={'dosbluebg'}>{`</${profile.title}>`}</span>
+                                        </div>
+                                    </div>
+                                    {`</${profile.github}>`}
+                                </div>
+                                {`</${profile.contact.email}>`}
+                            </div>
+                            {`</${profile.contact.phone}>`}
+                        </div>
+                        {`</${profile.bio.name}>`}
+                    </div>
+                </div>
             </div>
-            <div>
-                <h5>Keywords</h5>
-                {profile.keywords.map((item) =>
+            <div className={'tagcloud'}>
+                <div>
+                {profile.keywords.general.map((item) =>
                     <span className={'tag'}>
                         {item}
                     </span>
                 )}
+                </div>
+                <div>
+                    {profile.keywords.personal.map((item) =>
+                            <span className={'tag'}>
+                        {item}
+                    </span>
+                    )}
+                </div>
+                <div>
+                    {profile.keywords.technical.map((item) =>
+                            <span className={'tag'}>
+                        {item}
+                    </span>
+                    )}
+                </div>
             </div>
         </section>
     )
