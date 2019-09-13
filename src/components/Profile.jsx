@@ -23,7 +23,7 @@ export const Profile = (profile) => {
                 </div>
                 <div className={'avatar'}>
                     <img src={'images/me.png'} alt={'avatar'}/>
-                    <img className={'altAvatar'} src={'images/me.jpg'} alt={'alt-avatar'} />
+                    <img className={'altAvatar'} src={'images/me_alt.png'} alt={'alt-avatar'} />
                 </div>
             </div>
         </header>

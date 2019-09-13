@@ -16,9 +16,8 @@ export const QuickInfo = (profile) => {
                                     {`<GitHub>`}
                                     <div>
                                         {profile.languages.map((item, idx) =>
-                                        <React.Fragment key={idx}>{`<${item.lang} = "${item.value}"/>`}<br/></React.Fragment>
+                                        <React.Fragment key={idx}>{`<${item.lang} level="${item.value}"/>`}<br/></React.Fragment>
                                         )}
-                                        <div>
                                             {`<Job>`}
                                             <div>
                                                 {`<Status>`}
@@ -26,7 +25,6 @@ export const QuickInfo = (profile) => {
                                                 {`</${profile.status}>`}
                                             </div>
                                             <span className={'dosbluebg'}>{`</${profile.title}>`}</span>
-                                        </div>
                                     </div>
                                     {`</${profile.github}>`}
                                 </div>

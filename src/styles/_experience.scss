@@ -34,7 +34,6 @@ section {
             header {
                 h5 {
                     margin-top: 0;
-                    color: $doutone_light_darker;
                 }
 
                 .logo {
@@ -57,7 +56,7 @@ section {
                 li {
                     svg {
                         margin-right: 8px;
-                        color: $dosblue;
+                        color: $doutone_light_darker;
                     }
                 }
             }
@@ -82,7 +81,7 @@ section {
                     align-items: center;
                     justify-content: center;
                     vertical-align: middle;
-                    color: $doutone_light_darker;
+                    color: #000;
                     font-weight: 600;
                     font-size: 2.441em;
                     margin-top: auto;
