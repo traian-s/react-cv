@@ -74,7 +74,7 @@ export const experience = {
             title: 'Full Stack Web Developer',
             company: 'Freelancer',
             date: '2008 - ongoing',
-            duration: 'ongoing',
+            duration: '11 yr.',
             summary: 'Throughout the years I have taken on projects from clients both local and abroad using various technologies. I have established several' +
                     'successful long term working relationships with a number of US based clients and I strive to deliver quality solutions. I have also provided consultancy' +
                     'and software auditing services.',

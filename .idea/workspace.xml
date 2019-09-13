@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc6dd64-76df-48e9-861a-aadc05f35502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CV.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Export.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Export.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Personal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Personal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QuickInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QuickInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/content/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/experience.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/_experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_experience.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_quickinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_quickinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_typography.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +55,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\js\react-cv\src\redux" />
+      <recent name="G:\js\react-cv\src\redux\reducers" />
       <recent name="G:\js\react-cv\public\images" />
     </key>
   </component>
@@ -80,7 +91,8 @@
       <workItem from="1567957620158" duration="1198000" />
       <workItem from="1568227748463" duration="21000" />
       <workItem from="1568227812732" duration="7416000" />
-      <workItem from="1568270136387" duration="12250000" />
+      <workItem from="1568270136387" duration="12361000" />
+      <workItem from="1568352863446" duration="6233000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1567677130268</created>
@@ -103,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568277040559</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Styles">
+      <created>1568286077583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568286077583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +146,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="First Working Version" />
     <MESSAGE value="Facelift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facelift" />
+    <MESSAGE value="Styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -150,6 +170,18 @@
           <url>file://$PROJECT_DIR$/src/components/Profile.jsx</url>
           <line>5</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Export.jsx</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Export.jsx</url>
+          <line>34</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

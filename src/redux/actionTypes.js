@@ -1,0 +1,1 @@
+export const SAVE_CV = 'SAVE_CV';

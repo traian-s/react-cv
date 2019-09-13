@@ -15,8 +15,8 @@ export const QuickInfo = (profile) => {
                                 <div>
                                     {`<GitHub>`}
                                     <div>
-                                        {profile.languages.map((item) =>
-                                        <>{`<${item.lang} = "${item.value}"/>`}<br/></>
+                                        {profile.languages.map((item, idx) =>
+                                        <React.Fragment key={idx}>{`<${item.lang} = "${item.value}"/>`}<br/></React.Fragment>
                                         )}
                                         <div>
                                             {`<Job>`}
@@ -40,22 +40,22 @@ export const QuickInfo = (profile) => {
             </div>
             <div className={'tagcloud'}>
                 <div>
-                {profile.keywords.general.map((item) =>
-                    <span className={'tag'}>
+                {profile.keywords.general.map((item, idx) =>
+                    <span className={'tag'} key={idx}>
                         {item}
                     </span>
                 )}
                 </div>
                 <div>
-                    {profile.keywords.personal.map((item) =>
-                            <span className={'tag'}>
+                    {profile.keywords.personal.map((item, idx) =>
+                            <span className={'tag'} key={idx}>
                         {item}
                     </span>
                     )}
                 </div>
                 <div>
-                    {profile.keywords.technical.map((item) =>
-                            <span className={'tag'}>
+                    {profile.keywords.technical.map((item, idx) =>
+                            <span className={'tag'} key={idx}>
                         {item}
                     </span>
                     )}

@@ -12,10 +12,10 @@ export const Profile = (profile) => {
                     </div>
                     <div className={'links'}>
                         {
-                            profile.links.map((row) =>
+                            profile.links.map((row, idx) =>
                                 <a target='_blank'  rel='noopener noreferrer'
                                    className={`icon-${row.type}`}
-                                   href={row.link}>
+                                   href={row.link} key={idx}>
                                     {row.icon && <FontAwesomeIcon icon={[row.icon.style,row.icon.name]}/>}
                                 </a>)
                         }

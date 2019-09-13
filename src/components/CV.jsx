@@ -7,10 +7,11 @@ import {Experience} from "./Experience";
 import {Personal} from "./Personal";
 import {Navigation} from "./Navigation";
 import {QuickInfo} from "./QuickInfo";
+import {connect} from 'react-redux';
 
 library.add(fas, fab, faGithubAlt, faLinkedin, faEnvelope, faAngleRight, faDownload, faTerminal, faSmile);
 
-export const CV = ({experience, profile, personal}) => {
+export const CV = ({stylesPDF, experience, profile, personal}) => {
     return (
         <React.Fragment>
             <Navigation />
@@ -19,12 +20,18 @@ export const CV = ({experience, profile, personal}) => {
                     <Profile {...profile}/>
                     <QuickInfo {...profile}/>
                 </div>
-                <div className={'pdfSpacer'} style={{height: 40}}></div>
+                {true === stylesPDF && <div className={'pdfSpacer'} style={{height: 40}} />}
                 <Experience {...experience}/>
-            </div>
-            <div className={'container'}>
-                <Personal  {...personal}/>
+                {false === stylesPDF && <Personal  {...personal}/>}
             </div>
         </React.Fragment>
     );
-}
+};
+
+const mapStateToProps = state => {
+    return {
+        stylesPDF: state.stylesPDF
+    }
+};
+
+export default connect(mapStateToProps)(CV);

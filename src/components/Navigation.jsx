@@ -1,5 +1,5 @@
 import React from 'react';
-import {Export} from "./Export";
+import Export from "./Export";
 
 export const Navigation = () => {
     return (
@@ -13,6 +13,11 @@ export const Navigation = () => {
                 <li>
                     <a href={'#personal'}>
                         Personal Qualities
+                    </a>
+                </li>
+                <li style={{marginLeft: 'auto'}}>
+                    <a href={'https://github.com/traian-s/react-cv'} target={'_blank'}>
+                        Source
                     </a>
                 </li>
                 <li className={'export'}>
