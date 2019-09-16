@@ -1,0 +1,14 @@
+:root {
+    --text-color: #000;
+    --duotone-light: #10c5f8;
+    --duotone-darker: #077897;
+    --dosblue: #0000ff;
+}
+
+.dosblue {
+    color: var(--dosblue);
+}
+.dosbluebg {
+    color: white;
+    background: var(--dosblue);
+}

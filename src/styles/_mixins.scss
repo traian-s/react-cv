@@ -1,69 +1,75 @@
+@mixin a4size {
+    @media (min-width: var(--breakpoint)) {
+        @content;
+    }
+}
+
 @mixin separator {
-  &:after {
-    content: " ";
-    display: flex;
-    margin: 0 auto;
-    padding-top: .55rem;
-    width: 100%;
-    height: 0;
-    border-bottom: solid 2px #000;
-  }
+    &:after {
+        content: " ";
+        display: flex;
+        margin: 0 auto;
+        padding-top: .55rem;
+        width: 100%;
+        height: 0;
+        border-bottom: solid 2px #000;
+    }
 }
 
 @mixin underlineHover {
-  position: relative;
+    position: relative;
 
-  &:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -5px;
-    left: 0;
-    background-color: #FFF;
-    visibility: hidden;
-    transform: scaleX(0);
-    transition: all .3s ease-in-out;
-  }
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -5px;
+        left: 0;
+        background-color: #FFF;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all .3s ease-in-out;
+    }
 
-  &:hover:after {
-    visibility: visible;
-    transform: scaleX(1);
-  }
+    &:hover:after {
+        visibility: visible;
+        transform: scaleX(1);
+    }
 }
 
 @mixin tag {
-  margin: 8px 8px 8px 0;
-  font-size: .8125rem;
-  background-color: $duotone_light;
-  color: #000;
-  font-weight: 600;
-  padding: 0 12px;
-  border-radius: 16px;
-  height: 32px;
-  display: inline-flex;
-  align-items: center;
-  vertical-align: middle;
+    margin: 8px 8px 8px 0;
+    font-size: .8125rem;
+    background-color: var(--duotone-light);
+    color: #000;
+    font-weight: 600;
+    padding: 0 12px;
+    border-radius: 16px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
 }
 
 @mixin dosblueSep {
-  position: relative;
-  padding-bottom: 24px;
-  margin-bottom: 24px;
-  &:after {
-    content: "";
-    height: 0;
-    display: flex;
-    width: 100%;
-    border-style: solid;
-    border-color: $dosblue;
-    border-width: 0 0 2px 0;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-  }
+    position: relative;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    &:after {
+        content: "";
+        height: 0;
+        display: flex;
+        width: 100%;
+        border-style: solid;
+        border-color: var(--dosblue);
+        border-width: 0 0 2px 0;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
 }
 
 .dosblueSep {
-  @include dosblueSep;
+    @include dosblueSep;
 }

@@ -8,7 +8,7 @@ section {
 
             div {
                 border-style: solid;
-                border-color: $duotone_light;
+                border-color: var(--duotone-light);
                 border-width: 0 0 0 2px;
                 padding-left: 8px;
 
@@ -19,7 +19,7 @@ section {
 
             svg {
                 font-size: 1.5rem;
-                color: $duotone_light;
+                color: var(--duotone-light);
             }
         }
 
@@ -29,7 +29,7 @@ section {
 
             > div {
                 border-style: solid;
-                border-color: $dosblue;
+                border-color: var(--dosblue);
                 border-width: 0 2px 0 0;
                 margin-right: 16px;
 

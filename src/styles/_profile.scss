@@ -1,7 +1,7 @@
 .profileBox {
   margin: 0 0 40px 0;
   padding: 24px;
-  border: solid 2px $dosblue;
+  border: solid 2px var(--dosblue);
 }
 .profile {
   margin-bottom: 24px;
@@ -57,7 +57,7 @@
         justify-content: flex-start;
         > a {
           line-height: 1;
-          color: $duotone_light;
+          color: var(--duotone-light);
           font-size: 1.5rem;
           margin-right: 32px;
           transition: all .3s ease-in-out;
@@ -65,7 +65,7 @@
             margin-right: 0;
           }
           &:hover {
-            color: $dosblue;
+            color: var(--dosblue);
           }
         }
       }

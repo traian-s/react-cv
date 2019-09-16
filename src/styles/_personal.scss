@@ -13,7 +13,7 @@ section {
         flex: 1 1 33%;
         box-sizing: border-box;
         &:not(:last-child) {
-          border-right: solid 2px $dosblue;
+          border-right: solid 2px var(--dosblue);
         }
       }
     }

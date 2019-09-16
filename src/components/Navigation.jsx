@@ -15,7 +15,7 @@ export const Navigation = () => {
                         Personal Qualities
                     </a>
                 </li>
-                <li style={{marginLeft: 'auto'}}>
+                <li>
                     <a href={'https://github.com/traian-s/react-cv'} target={'_blank'}>
                         Source
                     </a>

@@ -28,7 +28,7 @@ body {
       padding: 0 0 24px 24px;
       box-sizing: border-box;
       border-style: solid;
-      border-color: $dosblue;
+      border-color: var(--dosblue);
       border-width: 0 0 2px 0;
     }
   }
