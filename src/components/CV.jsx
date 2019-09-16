@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab, faGithubAlt, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faAngleRight, faEnvelope, fas, faDownload, faTerminal, faSmile} from '@fortawesome/free-solid-svg-icons';
@@ -12,6 +12,9 @@ import {connect} from 'react-redux';
 library.add(fas, fab, faGithubAlt, faLinkedin, faEnvelope, faAngleRight, faDownload, faTerminal, faSmile);
 
 export const CV = ({stylesPDF, experience, profile, personal}) => {
+    useEffect(() => {
+        document.title = 'CV Traian Stanciu';
+    });
     return (
         <React.Fragment>
             <Navigation />

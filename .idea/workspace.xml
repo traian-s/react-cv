@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc6dd64-76df-48e9-861a-aadc05f35502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_experience.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_personal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_personal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_profile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_quickinfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_quickinfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CV.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CV.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +76,7 @@
       <workItem from="1568270136387" duration="12361000" />
       <workItem from="1568352863446" duration="9159000" />
       <workItem from="1568462281504" duration="2059000" />
-      <workItem from="1568630135826" duration="780000" />
+      <workItem from="1568630135826" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1567677130268</created>
@@ -124,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568359782728</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="preprocessor variables to css variables">
+      <created>1568631050233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568631050233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +146,8 @@
     <MESSAGE value="Facelift" />
     <MESSAGE value="Styles" />
     <MESSAGE value="More styles &amp; add redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="More styles &amp; add redux" />
+    <MESSAGE value="preprocessor variables to css variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="preprocessor variables to css variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
